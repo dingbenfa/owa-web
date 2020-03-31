@@ -4630,7 +4630,7 @@ textarea.leave-comment__input {
 
 .team-one {
     padding-top: 120px;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
 }
 
 .team-one .block-title__text {
@@ -4646,7 +4646,8 @@ textarea.leave-comment__input {
     margin-bottom: 50px;
 }
 
-.team-one__single:hover .team-one__image>img {
+
+/* .team-one__single:hover .team-one__image>img {
     opacity: 0.2;
 }
 
@@ -4654,11 +4655,12 @@ textarea.leave-comment__input {
     opacity: 1;
     -webkit-transform: perspective(40px) translateZ(0px);
     transform: perspective(40px) translateZ(0px);
-}
+} */
 
 .team-one__image {
     position: relative;
     background-color: #222222;
+    border: 1px solid #ccc;
 }
 
 .team-one__image>img {
@@ -6994,4 +6996,11 @@ textarea.leave-comment__input {
     margin: 0;
     font-size: 15px;
     line-height: 26px;
+}
+
+.owl-item-text {
+    border: 1px solid #fff;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-right: 5px;
 }
