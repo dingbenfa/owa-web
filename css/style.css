@@ -1,4 +1,4 @@
-﻿/***************************************************************************************************************
+/***************************************************************************************************************
 ||||||||||||||||||||||||||||       MASTER STYLESHEET FOR INDEXT               ||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
@@ -28,7 +28,6 @@
 * 22. cart styles
 * 23. checkout styles
 * 24. history styles
-更多模板：http://www.bootstrapmb.com/
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************/
@@ -991,6 +990,10 @@ a:focus {
     color: #ff5860;
 }
 
+.site-header__header-one .header-navigation ul.navigation-box .site-active-a {
+    color: #ff5860;
+}
+
 .site-header__header-two {
     position: absolute;
     top: 0;
@@ -1001,7 +1004,7 @@ a:focus {
 
 .site-header__header-two .header-navigation {
     background-color: #fff;
-    /* max-width: 1180px; */
+    /* max-width: 1170px; */
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -2001,10 +2004,6 @@ a:focus {
     margin-bottom: 5px;
 }
 
-.footer-widget__scan {
-    margin-bottom: 5px;
-}
-
 .footer-widget__social {
     margin-top: 40px;
     display: -webkit-box;
@@ -2171,8 +2170,8 @@ a:focus {
 }
 
 .site-footer__upper {
-    padding-top: 60px;
-    padding-bottom: 55px;
+    padding-top: 125px;
+    padding-bottom: 100px;
 }
 
 @media (max-width: 991px) {
@@ -4630,7 +4629,7 @@ textarea.leave-comment__input {
 
 .team-one {
     padding-top: 120px;
-    /* padding-bottom: 70px; */
+    padding-bottom: 70px;
 }
 
 .team-one .block-title__text {
@@ -4660,7 +4659,7 @@ textarea.leave-comment__input {
 .team-one__image {
     position: relative;
     background-color: #222222;
-    border: 1px solid #ccc;
+    border: 1px solid #d6d6d6;
 }
 
 .team-one__image>img {
@@ -7003,4 +7002,5 @@ textarea.leave-comment__input {
     padding-top: 13px;
     padding-left: 15px;
     padding-right: 5px;
+    color: #b5b5b5;
 }
