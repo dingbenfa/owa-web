@@ -68,6 +68,10 @@ a:focus {
     overflow: hidden;
 }
 
+.all-clear-padding {
+    padding: 0 !important;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1200px;
@@ -5377,6 +5381,8 @@ textarea.leave-comment__input {
     background-color: #fff;
     position: relative;
     margin-top: 92.5px;
+    padding-bottom: 10px !important;
+    border: 1px solid #dedede;
 }
 
 .testimonials-four__text {
@@ -5385,6 +5391,10 @@ textarea.leave-comment__input {
     font-family: "Rubik";
     font-size: 17px;
     line-height: 30px;
+}
+
+.testimonials-four__text>img {
+    width: 100% !important;
 }
 
 .testimonials-four__name {
